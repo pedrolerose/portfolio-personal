@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="js\funciones.js"></script>
+    <title>Portfolio Personal</title>
+</head>
+
+<body>
+    <h1> Portfolio Personal </h1>
+
+    <div class="DivIzq">
+        <div class="links">
+            <a href="https://ar.linkedin.com/in/pedro-lerose-18a987112">
+                <img src="images\linkedinico.png" width="30px" height="30px">
+            </a>
+            <label>LinkedIn</label>
+        </div>
+        <div class="links">
+            <a href="https://github.com/pedrolerose">
+                <img src="images\gitico.png" width="30px" height="30px">
+            </a>
+            <label>GitHub</label>
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/pedrolerose">
+                <img src="images\instagramico.png" width="30px" height="30px">
+            </a>
+            <label>Instagram</label>
+        </div>
+
+        <div id="contacto">
+            <img src="images\gmailico.png" width="30px" height="30px">
+            <input class="inputContacto" id="inputMail" type="email" placeholder="..Email" maxlength="100">
+            <input class="inputContacto" id="inputNombre" type="text" placeholder="..Nombre" maxlength="100">
+            <input class="inputContacto" id="inputMensaje" type="textarea" placeholder="..Mensaje" maxlength="300">
+            <button id="enviar" onclick="ValidarEnviar()" >Enviar</button>
+        </div>
+    </div>
+
+    <div class="DivDer">
+        <div>
+            <label>Sobre mi:</label>
+        </div>        
+        <div id="extracto">
+            <label>Me encuentro estudiando Programacion en la Universidad Tecnologica Nacional.</label>
+            <label>Actualmente trabajo como Desarrollador FullStack.</label>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

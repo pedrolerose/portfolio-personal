@@ -1,0 +1,72 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+h1 {
+    height: 180px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.links {
+    margin-left: 200px;
+    margin-top: 20px;
+}  
+
+#contacto {
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.inputContacto {
+  border-radius: 20px;
+  background-color: #585A59;
+  outline: none;
+  border: 1px solid #39c;
+  padding-left: 5px;
+}
+
+#inputMensaje{
+  margin-left: 35px;
+  width: 380px;
+}
+
+#enviar {
+  margin-left: 310px;
+  margin-top: 5px;
+  border-radius: 20px;
+  background-color: #585A59;
+  outline: none;
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+
+}
+
+.inputInvalido {
+  border: 1px solid red;
+}
+
+::placeholder {
+  color:#39c;
+  opacity: 1; 
+}
+
+.DivIzq {
+  float: left;
+  width: 50%;
+}
+
+.DivDer {
+  float: right;
+  width: 50%;
+}
+
+#extracto {
+  width: 50%;
+  margin-left: 60px;
+}
